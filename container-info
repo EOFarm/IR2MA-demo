@@ -1,0 +1,3 @@
+
+REPOSITORY=eofarm/jupyterlab
+TAG=`date -u +%Y.%m.%d.%H.%M`
