@@ -7,7 +7,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: eofarm/jupyterlab
+    image: ir2ma/jupyterlab
     ports:
     - "8888:8888"
     command: ["jupyter", "lab", "--NotebookApp.token=''" ]
