@@ -1,4 +1,4 @@
-FROM quay.io/jupyter/base-notebook:lab-4.1.8
+FROM quay.io/jupyter/base-notebook:lab-4.2.3
 
 # Use the built-in user
 USER ${NB_USER}
